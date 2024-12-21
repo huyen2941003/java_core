@@ -10,6 +10,7 @@ public class SinhVienIT extends SinhVien {
 
 	public void getPriceTax() {
 		Scanner scanner = new Scanner(System.in);
+
 		System.out.println("Price = ");
 		super.setPrice(scanner.nextDouble());
 		System.out.println("Tax = ");
